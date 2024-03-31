@@ -1,0 +1,94 @@
+.wrapper{
+
+}
+
+.right{
+    display: flex;
+    gap: 4px;
+}
+
+.task{
+    display: flex;
+    gap: 4px;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.in{
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    display: flex;
+}
+
+.in::placeholder {
+  text-align: center;
+}
+
+.in1{
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    display: flex;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.in1::placeholder {
+  text-align: center;
+}
+
+
+
+.leftin{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.rightin{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #25689C;
+    color: white;
+}
+
+
+.inl{
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    margin-left: 5px;
+}
+
+.inl::placeholder {
+  text-align: center;
+}
+
+
+
+.rightl{
+    display: flex;
+    gap: 4px;
+    margin-top: 20px;
+}
+
+.down{
+    width: 20px;
+    background-color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.dateIn{
+    display: flex;
+    /* border: 1px solid black; */
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}

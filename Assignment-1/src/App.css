@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  background-color: #E9DBFC;
+}
+
+.star {
+  max-width: 1080px;
+  margin: 0 auto; /* This centers the element horizontally */
+  border: 1px solid white;
+  border-radius: 10px;
+  border-shadow: white solid 6px white;
+}
+
